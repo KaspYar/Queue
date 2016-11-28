@@ -28,7 +28,7 @@ public class MostRecentlyInsertedQueue<E> extends AbstractQueue<E> {
         if (e == null) throw new NullPointerException();
 
         if (size != data.length) {
-            data[getStartPosition()] = e;
+            data[getLastPosition()] = e;
             size++;
         } else {
             data[start] = e;
@@ -41,7 +41,7 @@ public class MostRecentlyInsertedQueue<E> extends AbstractQueue<E> {
         start = (start + 1) % data.length;
     }
 
-    private int getStartPosition() {
+    private int getLastPosition() {
         return (start + size) % data.length;
     }
 
