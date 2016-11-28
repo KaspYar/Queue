@@ -1,5 +1,7 @@
 package com.kaspyar;
 
+import com.kaspyar.queue.MostRecentlyInsertedQueue;
+
 import java.util.Queue;
 
 public class Main {

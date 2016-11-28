@@ -1,5 +1,6 @@
 package com.kaspyar;
 
+import com.kaspyar.queue.MostRecentlyInsertedQueue;
 import org.junit.Assert;
 import org.junit.Test;
 

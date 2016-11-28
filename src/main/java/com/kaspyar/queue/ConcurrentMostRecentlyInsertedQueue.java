@@ -1,4 +1,4 @@
-package com.kaspyar;
+package com.kaspyar.queue;
 
 import java.util.concurrent.locks.ReentrantLock;
 

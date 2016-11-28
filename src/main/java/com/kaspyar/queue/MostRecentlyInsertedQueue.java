@@ -1,4 +1,4 @@
-package com.kaspyar;
+package com.kaspyar.queue;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;
